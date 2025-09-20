@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Ask 4 a Service",
+    "slug": "mobile",
+    "owner": "orchidealinks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logos/orchidealinks_text_white.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.orchidealinks.ask4aservice",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logos/chatbot_ligth.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.orchidealinks.ask4aservice"
+    },
+    "web": {
+      "favicon": "./assets/logos/chatbot_ligth.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d8cbb33-d3c2-40ff-97f6-5355ebc2ba6c"
+      }
+    }
+  }
+}
